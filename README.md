@@ -42,6 +42,11 @@ Instalação das bibliotecas necessárias:
 poetry install
 ```
 
+Ou há a possibilidade de apenas utilizar o comando abaixo para a instalação das bibliotecas:
+```
+pip install requirements.txt
+```
+
 Ativação da API:
 ```
 poetry run uvicorn main:app --reload
