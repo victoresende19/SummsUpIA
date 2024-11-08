@@ -28,6 +28,7 @@ def generate_openai_summary(content: str):
                 "content": content
             }
         ],
+        max_tokens=1000,
         temperature=0.1,
         top_p=1
     )
