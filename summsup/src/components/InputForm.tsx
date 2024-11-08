@@ -85,7 +85,7 @@ const InputForm: React.FC<InputFormProps> = ({ setResult }) => {
     formData.append('file', file);
 
     try {
-      const response = await axios.post('http://127.0.0.1:8000/upload-pdf/', formData, {
+      const response = await axios.post('https://summsupia.onrender.com/upload-pdf/', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
@@ -110,7 +110,7 @@ const InputForm: React.FC<InputFormProps> = ({ setResult }) => {
         <Button onClick={handleSubmit} disabled={loading}>
           <ButtonContent>
             {loading && <CircularProgress size={20} style={{ color: 'white' }} />}
-            Gerar conteúdo ✨
+            Gerar resumo ✨
           </ButtonContent>
         </Button>
       </FormContainer>
