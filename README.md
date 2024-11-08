@@ -78,6 +78,4 @@ O agente SummsUpIA foi criado seguindo a arquitetura abaixo:
 ![image](https://github.com/user-attachments/assets/7ff14fb4-dba8-4517-9ae6-f8a4844feaad)
 
 <hr>
-
-# Langflow
-O fluxo está disponível para download através do arquivo SummsUpIA.json, o qual pode ser importado via interface Langflow para testes. Recomendações: o projeto foi criado localmente, dessa forma, para testar o fluxo faça as devidas instalações das bibliotecas.
+@Victor Resende
